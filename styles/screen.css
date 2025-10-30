@@ -1,16 +1,29 @@
+.josefin-sans-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.zalando-sans {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #e4edf0;
 }
 
 nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+    margin: 0 auto;
+    width: 100%;
+    background: #0b4462;
 }
 
 nav ul {
@@ -28,23 +41,59 @@ nav ul li {
 nav ul li a {
     display: inline-block;
     padding: 20px;
-    color: #EAE8FF;
+    color: #dbe9ee;
     text-decoration: none;
     font-size: 1.2em;
+    font-family: "Josefin Sans";
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
+    text-align: center;
+    margin: 50px 30px 30px 30px;
+    font-family: "Zalando Sans";
+    color: #0b4462;
+    font-size: 60px;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.list-of-items {
+    text-align: center;
+    list-style-type: none;
+
 }
 
-img.about {
-    opacity: 0.5;
+.list-of-items li {
+    margin: 30px;
+    font-family: "Josefin Sans";
+    color: #166088;
+    font-size: 40px;
+}
+
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-down {
+    flex-direction: column;
+    font-size: 30px;
+    font-family: "Josefin Sans";
+    margin: 0px 30px 30px 30px;
+    color: #166088;
+}
+
+.text img {
+    width: 100%;
+    max-width: 300px;
+    min-width: 250px;
+    height: auto;
+    margin: 0px 30px 40px 30px;
+}
+
+figure figcaption  {
+    text-align: center;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    color: #166088;
+    margin: 0px;
 }
